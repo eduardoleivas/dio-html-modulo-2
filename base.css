@@ -61,7 +61,3 @@ body {
     flex-flow: column;
     width: 200px;
 }
-
-.video-player {
-    justify-self: center;
-}
