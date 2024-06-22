@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLUSVET - Clínica Veterinária</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="atendimento.html">Horário de Atendimento</a></li>
+                <li><a active href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./res/images/Logo-Contato.png" width="300">
+            </div>
+    
+            <div class="content">
+                <h3>Entre em Contato:</h3>
+                <table>
+                    <tr>
+                        <td>Telefone:</td>
+                        <td><a href="tel:11999999999">(11) 99999-9999</a></td>
+                    </tr>
+                    <tr>
+                        <td>Whatsapp:</td>
+                        <td><a href="https://api.whatsapp.com/send/?phone=5522911111111">(22) 91111-1111</a></td>
+                    </tr>
+                </table>
+                <h4>Endereço:</h4>
+                <p>Avenida Alguma Coisa, nº 31, Centro, Rio de Janeiro - RJ</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.3077425955466!2d-43.19404482539876!3d-22.938890839017727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f877d85b3a3%3A0x5f3c937dc1fb7444!2sClinica%20Veterin%C3%A1ria%20Vet%20Care!5e0!3m2!1spt-BR!2sbr!4v1719016714652!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h3>Envie uma Mensagem:</h3>
+                <form class="form-container" target="_blank" onsubmit="alert('Sua mensagem foi enviada com sucesso')">
+                    <input name="nome" type="text" placeholder="Nome Completo" />
+                    <input name="email" type="email" placeholder="E-Mail" />
+                    <input name="assunto" type="text" placeholder="Assunto" />
+                    <textarea placeholder="Insira sua mensagem"></textarea>
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <h3>Fale Conosco:</h3>
+                <ul>
+                    <li>Telefone: (11) 99999-9999</li>
+                    <li>Email: plusvet@contato.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
